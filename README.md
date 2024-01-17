@@ -3,7 +3,7 @@
 Pretend you want to change your password. You are not sure if your password is complex enough, or perhaps you want to check the strength for a password you are currently using.
 Passcheck *solves this problem!*
 
-# Usage and funnctions
+## Usage and funnctions
 The application has been created in python. I left a .exe file in the `dist\passcheck` folder. You can also use the python file in the main folder.
 >[!WARNING]
 >When running the application on Windows you may receive a virus alert message.
@@ -18,7 +18,7 @@ When testing the password there are only *two* possible outcomes:
 
 But what are these criterias?
 
-+ Checks if the password is over 6 chars.
++ Checks if the password is over 8 chars.
 + Checks if the password has uppercase.
 + Checks if the passwword has lowercase.
 + Checks if the password has numbers.
