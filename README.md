@@ -18,10 +18,13 @@ When testing the password there are only *two* possible outcomes:
 
 But what are these criterias?
 
-+ Checks if the password is over 8 chars.
++ Checks if the password equals or is over 10 chars.
 + Checks if the password has uppercase.
 + Checks if the passwword has lowercase.
 + Checks if the password has numbers.
++ Checks if the password has not more than 2 identical characters in a row (e.g., 111 not allowed).
+
+These password complexity recommendations can be viewed at [OWASP Authentication Cheat Sheet](https://owasp.deteact.com/cheat/cheatsheets/Authentication_Cheat_Sheet.html) and [NIST Recommendation for Password-Based Key Derivation](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-132.pdf).
 
 https://github.com/sena-00/passcheck/assets/156020094/1636ebaf-6556-4cfd-abdf-9eaf65574aae
 
