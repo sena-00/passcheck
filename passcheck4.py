@@ -78,14 +78,15 @@ class PasswordStrengthChecker(QWidget):
 
     def check_password_strength(self, password):
         # Password strength checking logic
-        if len(password) >= 8:
+        if len(password) >= 10:
             has_uppercase = any(char.isupper() for char in password)
             has_lowercase = any(char.islower() for char in password)
             has_digit = any(char.isdigit() for char in password)
             has_special_char = any(char in '!@#$%^&*()_+{}[]:;<>,.?~/-' for char in password)
+            has_consecutive_chars = any(password[i] == password[i + 1] for i in range(len(password) - 1))
 
             # Check if all conditions are met
-            if all([has_uppercase, has_lowercase, has_digit, has_special_char]):
+            if all([has_uppercase, has_lowercase, has_digit, has_special_char]) and not has_consecutive_chars:
                 return "Strong Password!", 'darkgreen'  # Set text color to dark green for strong password
             else:
                 return "Weak Password!", 'darkred'  # Set text color to dark red for weak password
