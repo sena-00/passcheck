@@ -4,7 +4,7 @@ Pretend you want to change your password. You are not sure if your password is c
 Passcheck *solves this problem!*
 
 ## Usage and funnctions
-The application has been created in python. I left a .exe file in the `dist\passcheck` folder. You can also use the python file in the main folder.
+The application has been created in python. A *.exe* has been left in `dist\passcheck` folder. You can also use the python file in the main folder.
 >[!WARNING]
 >When running the application on Windows you may receive a virus alert message.
 
