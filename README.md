@@ -15,7 +15,6 @@ When testing the password there are only *two* possible outcomes:
 - Weak Password - Complexity criteria not met
 + Strong Password - Complexity criteria met
 ```
-
 But what are these criterias?
 
 + Checks if the password equals or is over 10 chars.
