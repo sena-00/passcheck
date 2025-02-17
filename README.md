@@ -30,7 +30,3 @@ https://github.com/sena-00/passcheck/assets/156020094/1636ebaf-6556-4cfd-abdf-9e
 The logic for this app is centralized in `for` and `if` loops.
 This can be found in found in the line 79. The rest of the code is mostly visual changes and buttons/actions customization.
 
->[!NOTE]
->This application has been developed for educational purposes only. There are (many) mistakes on it.
->Prior to this, i had not python experience.
-
